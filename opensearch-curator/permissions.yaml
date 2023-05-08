@@ -9,5 +9,15 @@ rules:
       - 'extensions.kubesphere.io'
     resources:
       - '*'
-
+  - verbs:
+      - '*'
+    apiGroups:
+      - ''
+    resources:
+      - 'configmaps'
+      - 'secrets'
+      - 'cronjob'
+      - 'job'
+      - 'serviceaccounts'
+      
 
