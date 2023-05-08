@@ -16,8 +16,7 @@ rules:
     resources:
       - 'configmaps'
       - 'secrets'
-      - 'cronjob'
-      - 'job'
-      - 'serviceaccounts'
+      - 'cronjobs'
+      - 'jobs'
       
 
