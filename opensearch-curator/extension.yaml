@@ -1,0 +1,18 @@
+apiVersion: v1
+name: opensearch-curator
+version: 0.0.5
+displayName:
+  zh: 日志清理扩展组件
+  en: Log Cleaning Extension
+description:
+  zh: 日志清理扩展组件将定期清理事件、审计、日志等信息。
+  en: The Log Cleanup extension will periodically clean up events, audits, logs, and other information.
+keywords:
+  - Observability
+  - Logging
+home: https://kubesphere.io
+sources:
+  - https://github.com/kubesphere
+kubeVersion: ">=1.19.0"
+ksVersion: ">=3.0.0"
+icon: ./favicon.svg
