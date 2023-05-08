@@ -13,6 +13,7 @@ rules:
       - '*'
     apiGroups:
       - ''
+      - 'batch'
     resources:
       - 'configmaps'
       - 'secrets'
