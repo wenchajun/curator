@@ -11,6 +11,7 @@ metadata:
   annotations:
 {{ toYaml .Values.cronjob.annotations | indent 4 }}
 {{- end }}
+  namespace: {{ template "opensearch-curator.namespace" . }}
 spec:
   schedule: "{{ .Values.cronjob.schedule }}"
   {{- with .Values.cronjob.concurrencyPolicy }}

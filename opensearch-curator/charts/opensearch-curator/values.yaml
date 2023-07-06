@@ -13,6 +13,8 @@ cronjob:
 pod:
   annotations: {}
 
+namespaceOverride: kubesphere-logging-system
+
 image:
   repository: kubesphere/opensearch-curator
   tag: v0.0.5
